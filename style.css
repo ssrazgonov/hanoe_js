@@ -1,0 +1,16 @@
+.hanoe {
+	display: flex;
+}
+
+.pin {
+	background: black;
+	color: white;
+	width: 100px;
+	height: 100px;
+	margin-left: 25px;
+	padding: 20px;
+}
+
+#BldSpeed{
+  direction: rtl
+}

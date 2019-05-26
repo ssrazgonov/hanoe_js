@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<h1>Сброка Ханойской башни</h1>
+
+	<section class="hanoe-options">
+		<div class="option-group">
+			<label  for="">Количество дисков: <span id="lblDskCount"></span></label>
+			<input id="DskCount" type="range" class="option disk-count" min="1" max="10" value="3">
+		</div>
+		
+		<div class="option-group">
+			<label   for="">Скорость сборки <span id="lblBldSpeed"></span></label>
+			<input id="BldSpeed" type="range" class="option build-speed" value="1000" min="10" max="1000" step="10">
+		</div>
+		</div>
+		
+		<div class="option-group">
+			<button id="restart" class="btn">Начать сначала</button>
+		</div>
+
+	</section>
+	<section class="hanoe">
+		<div class="pin pin-1"></div>
+		<div class="pin pin-2"></div>
+		<div class="pin pin-3"></div>
+	</section>
+
+	<script src="app.js"></script>
+</body>
+</html>
